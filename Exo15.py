@@ -1,0 +1,13 @@
+l = [17, 38, 10, 25, 72]
+print(l)
+l.sort()
+print(l)
+l.append(12)
+print(l)
+temp = l.index(17)
+print(temp)
+l.remove(38)
+print(l)
+print(l[1:3])
+print(l[1:])
+print(l[2:])
